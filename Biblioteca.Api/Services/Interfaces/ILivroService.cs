@@ -1,6 +1,6 @@
 ﻿using Biblioteca.Api.Models;
 
-namespace Biblioteca.Api.Services
+namespace Biblioteca.Api.Services.Interfaces
 {
     public interface ILivroService
     {

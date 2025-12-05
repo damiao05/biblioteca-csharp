@@ -1,6 +1,7 @@
 ﻿using Biblioteca.Api.Models;
 using Biblioteca.Api.Data;
 using Microsoft.EntityFrameworkCore;
+using Biblioteca.Api.Services.Interfaces;
 
 namespace Biblioteca.Api.Services
 {

@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Api.Data;
 using Biblioteca.Api.Services;
+using Biblioteca.Api.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

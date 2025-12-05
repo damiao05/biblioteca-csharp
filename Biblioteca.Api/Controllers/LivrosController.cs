@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Biblioteca.Api.Data;
 using Biblioteca.Api.Models;
-using Biblioteca.Api.Services;
+using Biblioteca.Api.Services.Interfaces;
 
 namespace Biblioteca.Api.Controllers
 {

@@ -21,7 +21,15 @@ namespace Biblioteca.Api.Data
                 .HasOne(l => l.Usuario)
                 .WithMany(u => u.HistoricoLogins)
                 .HasForeignKey(l => l.UsuarioId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Usuario>()
+                .HasOne(u => u.Endereco)
+                .WithMany(a => a.Usuarios)
+                .HasForeignKey(u => u.EnderecoId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }

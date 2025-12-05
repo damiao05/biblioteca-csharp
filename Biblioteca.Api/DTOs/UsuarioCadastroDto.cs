@@ -1,0 +1,43 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Biblioteca.Api.DTOs
+{
+    public class UsuarioCadastroDto
+    {
+        [Required]
+        public string Nome { get; set; } = string.Empty;
+
+        [Required]
+        public string CPF { get; set; } = string.Empty;
+
+        [Required]
+        public DateOnly DataNascimento { get; set; }
+
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required]
+        [MinLength(8)]
+        public string Senha { get; set; } = string.Empty;
+
+        [Required]
+        public string Username { get; set; } = string.Empty;
+
+        [Required]
+        [MinLength(11)]
+        [MaxLength(11)]
+        public string Cep { get; set; } = string.Empty;
+
+        [Required]
+        public string Rua { get; set; } = string.Empty;
+
+        [Required]
+        public string Cidade { get; set; } = string.Empty;
+
+        [Required]
+        public string Estado { get; set; } = string.Empty;
+
+
+    }
+}

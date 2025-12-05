@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Migrations\\20251205020933_CriacaoTabelaEndereco2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca.Api\\Migrations\\20251205020933_CriacaoTabelaEndereco2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\services\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Migrations\\20251205020814_CriacaoTabelaEndereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Biblioteca.Api\\Migrations\\20251205020814_CriacaoTabelaEndereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\controllers\\livroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\services\\interfaces\\ilivroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\services\\interfaces\\ilivroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,20 +39,32 @@
       "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\models\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\models\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\dtos\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\dtos\\usuariocadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\migrations\\20251205020933_criacaotabelaendereco2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\migrations\\20251205020933_criacaotabelaendereco2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\biblioteca.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\biblioteca.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|c:\\users\\arthu\\source\\repos\\biblioteca\\biblioteca.api\\migrations\\20251205020814_criacaotabelaendereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B973DC6-0CD7-5DCE-AAE6-1C9B1E4A0EBE}|Biblioteca.Api\\Biblioteca.Api.csproj|solutionrelative:biblioteca.api\\migrations\\20251205020814_criacaotabelaendereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,6 +79,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LivroService.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\LivroService.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Services\\LivroService.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\LivroService.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Services\\LivroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:24:07.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioCadastroDto.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\DTOs\\UsuarioCadastroDto.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\DTOs\\UsuarioCadastroDto.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\DTOs\\UsuarioCadastroDto.cs",
+              "RelativeToolTip": "Biblioteca.Api\\DTOs\\UsuarioCadastroDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:40:23.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:27:13.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:24:28.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILivroService.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\Interfaces\\ILivroService.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Services\\Interfaces\\ILivroService.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\Interfaces\\ILivroService.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Services\\Interfaces\\ILivroService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:23:34.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Services\\Interfaces\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Services\\Interfaces\\IUsuarioService.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Services\\Interfaces\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:22:42.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LivrosController.cs",
+              "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Controllers\\LivrosController.cs",
+              "RelativeDocumentMoniker": "Biblioteca.Api\\Controllers\\LivrosController.cs",
+              "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Controllers\\LivrosController.cs",
+              "RelativeToolTip": "Biblioteca.Api\\Controllers\\LivrosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:21:15.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "20251205020933_CriacaoTabelaEndereco2.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Migrations\\20251205020933_CriacaoTabelaEndereco2.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Migrations\\20251205020933_CriacaoTabelaEndereco2.cs",
@@ -63,20 +182,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Biblioteca.Api\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwB8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T02:09:15.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "20251205020814_CriacaoTabelaEndereco.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Migrations\\20251205020814_CriacaoTabelaEndereco.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Migrations\\20251205020814_CriacaoTabelaEndereco.cs",
@@ -84,51 +203,50 @@
               "RelativeToolTip": "Biblioteca.Api\\Migrations\\20251205020814_CriacaoTabelaEndereco.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T02:08:15.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T02:08:15.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Login.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Models\\Login.cs",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Login.cs",
               "RelativeToolTip": "Biblioteca.Api\\Models\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T02:05:35.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Usuario.cs",
               "RelativeToolTip": "Biblioteca.Api\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T02:04:43.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Endereco.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Endereco.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Models\\Endereco.cs",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Endereco.cs",
               "RelativeToolTip": "Biblioteca.Api\\Models\\Endereco.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-05T02:03:38.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Biblioteca.Api.http",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Biblioteca.Api.http",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Biblioteca.Api.http",
@@ -136,25 +254,24 @@
               "RelativeToolTip": "Biblioteca.Api\\Biblioteca.Api.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-05T00:55:32.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T00:55:32.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Biblioteca.Api\\appsettings.json",
               "ToolTip": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\appsettings.json",
               "RelativeToolTip": "Biblioteca.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-05T00:55:19.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Livro.cs",
               "DocumentMoniker": "C:\\Users\\arthu\\source\\repos\\Biblioteca\\Biblioteca.Api\\Models\\Livro.cs",
               "RelativeDocumentMoniker": "Biblioteca.Api\\Models\\Livro.cs",
