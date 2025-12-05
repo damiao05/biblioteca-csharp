@@ -10,6 +10,9 @@ namespace Biblioteca.Api.Models
         public string CPF { get; set; } = string.Empty;
         public DateOnly DataNascimento { get; set; }
         public DateTime DataCadastro { get; set; }
+        public int EnderecoId { get; set; }
+
+        public Endereco? Endereco { get; set; }
 
         public ICollection<Login> HistoricoLogins { get; set; } = new List<Login>();
     }
