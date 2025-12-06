@@ -12,7 +12,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 });
 
+builder.Services.AddAuthorization();
+builder.Services.AddControllers();
 builder.Services.AddScoped<ILivroService, LivroService>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 
 var app = builder.Build();
 
@@ -27,5 +30,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.UseRouting();
 app.Run();

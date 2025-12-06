@@ -13,15 +13,43 @@
           type="text" 
           id="nome" 
           name="nome"
-          formControlName="nomeCompleto" 
-          [class.border-red-500]="cadastroForm.get('nomeCompleto')?.invalid && cadastroForm.get('nomeCompleto')?.touched"
+          formControlName="nome" 
+          [class.border-red-500]="cadastroForm.get('nome')?.invalid && cadastroForm.get('nome')?.touched"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150"
           placeholder="Seu nome completo"
         />
-        <div *ngIf="cadastroForm.get('nomeCompleto')?.invalid && cadastroForm.get('nomeCompleto')?.touched" 
+        <div *ngIf="cadastroForm.get('nome')?.invalid && cadastroForm.get('nome')?.touched" 
              class="text-red-500 text-xs mt-1">
              O nome completo é obrigatório.
         </div>
+      </div>
+      <div class="mb-4">
+        <label for="cpf" class="block text-gray-700 text-sm font-medium mb-2">CPF</label>
+        <input 
+          type="text" 
+          id="cpf" 
+          name="cpf"
+          formControlName="cpf" 
+          [class.border-red-500]="cadastroForm.get('cpf')?.invalid && cadastroForm.get('cpf')?.touched"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150"
+          placeholder="000.000.000-00"
+        />
+        <div *ngIf="cadastroForm.get('cpf')?.invalid && cadastroForm.get('cpf')?.touched" 
+             class="text-red-500 text-xs mt-1">
+             O CPF é obrigatório.
+        </div>
+      </div>
+      <div class="mb-4">
+        <label for="dataNascimento" class="block text-gray-700 text-sm font-medium mb-2">Data de Nascimento</label>
+        <input 
+          type="date" 
+          id="dataNascimento" 
+          name="dataNascimento"
+          formControlName="dataNascimento" 
+          [class.border-red-500]="cadastroForm.get('dataNascimento')?.invalid && cadastroForm.get('dataNascimento')?.touched"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150"
+          placeholder="Seu dataNascimento completo"
+        />
       </div>
 
       <h3 class="text-xl font-semibold text-gray-700 border-b pb-2 mt-8 mb-4">Credenciais de Login</h3>
@@ -43,7 +71,23 @@
         </div>
       </div>
 
-      <div class="mb-6">
+      <div class="mb-4">
+        <label for="username" class="block text-gray-700 text-sm font-medium mb-2">Username</label>
+        <input 
+          type="text"
+          name="username"
+          id="username"
+          formControlName="username"
+          [class.border-red-500]="cadastroForm.get('username')?.invalid && cadastroForm.get('username')?.touched"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150"
+          placeholder="Seu username">
+        <div *ngIf="cadastroForm.get('username')?.invalid && cadastroForm.get('username')?.touched"
+          class="text-red-500 text-xs mt-1">
+          O username é obrigatório e deve ser válido.
+        </div>
+      </div>
+
+      <div class="mb-4">
         <label for="senha" class="block text-gray-700 text-sm font-medium mb-2">Senha</label>
         <input 
           type="password" 
@@ -58,6 +102,65 @@
              class="text-red-500 text-xs mt-1">
              A senha deve ter no mínimo 8 caracteres.
         </div>
+      </div>
+
+      <h3 class="text-xl font-semibold text-gray-700 border-b pb-2 mt-8 mb-4">Informações de Endereço</h3>
+
+      <div class="mb-4">
+        <label for="cep" class="block text-gray-700 text-sm font-medium mb-2">CEP</label>
+        <input
+          type="text"
+          name="cep"
+          id="cep"
+          formControlName="cep"
+          (blur)="onCepBlur()"
+          [class.border-red-500]="cadastroForm.get('cep')?.invalid && cadastroForm.get('cep')?.touched"
+          class="shadow appearence-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150"
+          placeholder="00000-000">
+        <div *ngIf="cadastroForm.get('cep')?.invalid && cadastroForm.get('cep')?.touched"
+          class="text-red-500 text-xs mt-1">
+          O CEP é obrigatório e deve ser válido.
+        </div>
+      </div>
+      <div class="mb-4">
+        <label for="rua" class="block text-gray-700 text-sm font-medium mb-2">Rua</label>
+        <input
+          type="text"
+          name="rua"
+          id="rua"
+          formControlName="rua"
+          [class.border-red-500]="cadastroForm.get('rua')?.invalid && cadastroForm.get('rua')?.touched"
+          class="shadow appearence-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150">
+      </div>
+      <div class="mb-4">
+        <label for="bairro" class="block text-gray-700 text-sm font-medium mb-2">Bairro</label>
+        <input 
+          type="text" 
+          name="bairro" 
+          id="bairro"
+          formControlName="bairro"
+          [class.border-red-500]="cadastroForm.get('bairro')?.invalid && cadastroForm.get('bairro')?.touched"
+          class="shadow appearence-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150">
+      </div>
+      <div class="mb-4">
+        <label for="cidade" class="block text-gray-700 text-sm font-medium mb-2">Cidade</label>
+        <input
+          type="text"
+          name="cidade"
+          id="cidade"
+          formControlName="cidade"
+          [class.border-red-500]="cadastroForm.get('cidade')?.invalid && cadastroForm.get('cidade')?.touched"
+          class="shadow appearence-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500 transition duration-150">
+      </div>
+      <div class="mb-6">
+        <label for="estado" class="block text-gray-700 text-sm font-medium mb-2">Estado</label>
+        <input 
+          type="text"
+          name="estado"
+          id="estado"
+          formControlName="estado"
+          [class.border-red-500]="cadastroForm.get('estado')?.invalid && cadastroForm.get('estado')?.touched"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:ring-2 focus:indigo-500 transition duration-150">
       </div>
 
       <div class="flex items-center justify-center">

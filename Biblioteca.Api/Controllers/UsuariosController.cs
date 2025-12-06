@@ -10,7 +10,7 @@ namespace Biblioteca.Api.Controllers
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuarioService _usuarioService;
-        
+
         public UsuariosController(IUsuarioService service)
         {
             _usuarioService = service;
@@ -44,5 +44,6 @@ namespace Biblioteca.Api.Controllers
             {
                 return StatusCode(500, "Erro interno ao cadastrar usuário: " + ex.Message);
             }
+        }
     }
 }

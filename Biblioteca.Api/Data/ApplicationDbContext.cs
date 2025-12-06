@@ -10,10 +10,10 @@ namespace Biblioteca.Api.Data
         {
         }
 
-        public DbSet<Livro> Livros { get; set; } = null;
-        public DbSet<Login> Logins { get; set; } = null;
-        public DbSet<Usuario> Usuarios { get; set; } = null;
-        public DbSet<Endereco> Enderecos { get; set; } = null;
+        public DbSet<Livro> Livros { get; set; }
+        public DbSet<Login> Logins { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Endereco> Enderecos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -28,6 +28,10 @@ namespace Biblioteca.Api.Data
                 .WithMany(a => a.Usuarios)
                 .HasForeignKey(u => u.EnderecoId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Usuario>()
+                .Property(u => u.DataNascimento)
+                .HasColumnType("date");
 
             base.OnModelCreating(modelBuilder);
         }

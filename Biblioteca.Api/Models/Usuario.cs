@@ -8,7 +8,7 @@ namespace Biblioteca.Api.Models
         public string Nome { get; set; } = string.Empty;
         [Column(TypeName = "varchar(11)")]
         public string CPF { get; set; } = string.Empty;
-        public DateOnly DataNascimento { get; set; }
+        public DateTime DataNascimento { get; set; }
         public DateTime DataCadastro { get; set; }
         public int EnderecoId { get; set; }
 

@@ -30,6 +30,10 @@ namespace Biblioteca.Api.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Bairro")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CEP")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -140,7 +144,7 @@ namespace Biblioteca.Api.Migrations
                     b.Property<DateTime>("DataCadastro")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateOnly>("DataNascimento")
+                    b.Property<DateTime>("DataNascimento")
                         .HasColumnType("date");
 
                     b.Property<int>("EnderecoId")
@@ -162,7 +166,7 @@ namespace Biblioteca.Api.Migrations
                     b.HasOne("Biblioteca.Api.Models.Usuario", "Usuario")
                         .WithMany("HistoricoLogins")
                         .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Usuario");
@@ -173,7 +177,7 @@ namespace Biblioteca.Api.Migrations
                     b.HasOne("Biblioteca.Api.Models.Endereco", "Endereco")
                         .WithMany("Usuarios")
                         .HasForeignKey("EnderecoId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Endereco");

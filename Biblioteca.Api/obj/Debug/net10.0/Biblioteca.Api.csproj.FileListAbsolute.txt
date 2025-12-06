@@ -159,7 +159,6 @@ C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\staticwe
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\Bibliote.113D789A.Up2Date
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\Biblioteca.Api.dll
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\refint\Biblioteca.Api.dll
@@ -167,3 +166,5 @@ C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\Bibliote
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\Biblioteca.Api.genruntimeconfig.cache
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\ref\Biblioteca.Api.dll
 C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\Biblioteca.Api.sourcelink.json
+C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\arthu\source\repos\Biblioteca\Biblioteca.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
